@@ -1,0 +1,15 @@
+CONFIG_NAME: 'stageII'
+
+DATASET_NAME: 'flowers'
+GPU_ID: 0
+Z_DIM: 100
+
+TEST:
+    PRETRAINED_MODEL: 'ckt_logs/flowers/_2017_11_27_04_09_27/model_64000.ckpt'
+    BATCH_SIZE: 64
+    NUM_COPY: 8
+
+ALI:
+    EMBEDDING_DIM: 128
+    DF_DIM: 64
+    GF_DIM: 128
